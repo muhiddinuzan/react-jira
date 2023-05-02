@@ -1,0 +1,101 @@
+body {
+  font-family: "Exo 2", sans-serif;
+  background-color: rgb(59, 87, 108);
+  color: white;
+}
+
+h2,
+h1 {
+  text-align: center;
+}
+.createDiv {
+  display: flex;
+  justify-content: center;
+}
+form {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  border-radius: 10px;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+textarea:focus {
+  outline: none;
+}
+textarea {
+  border-radius: 10px;
+  min-width: 300px;
+  min-height: auto;
+  max-height: 75px;
+  max-width: 300px;
+}
+
+label {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.createButton {
+  background-color: rgb(110, 132, 152);
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 10px 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.tasksList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contentList {
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 350px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  align-items: center;
+}
+.listDelete {
+    background-color: rgb(220, 83, 83);
+    color:white;
+    padding: 2px 20px;
+    border-radius: 10px;
+    border:none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.listUpdate {
+    background-color: rgb(34, 143, 89);
+    color:white;
+    padding: 2px 20px;
+    border-radius: 10px;
+    border:none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.updateDiv {
+  width: 100%;
+}
+.updateButton {
+  background-color: rgb(34, 143, 89);
+  color:white;
+  padding: 2px 20px;
+  border-radius: 10px;
+  border:none;
+  height: 30px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
